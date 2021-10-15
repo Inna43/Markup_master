@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+img{
+    width: 50px;
+}
+h1{
+    text-align: center;
+}
+table{
+    width: 100%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 25%, rgba(233,206,147,0.9332107843137255) 83%);
+    height: 80vh;
+    border: 1px solid ;
+    border-collapse: collapse;
+    font-family: 'Quicksand', sans-serif;
+}
+th{
+    border: 1px solid ;
+}
+th:hover{
+    background-color: rgb(243, 189, 189);
+}
