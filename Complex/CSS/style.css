@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Scheherazade+New&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Scheherazade+New&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+}
+.main{
+    height: 75vh;
+    background-color: rgb(80, 72, 72);
+    color: aliceblue;
+    font-size: larger;
+    display: flex;
+    justify-content: center ;
+    flex-wrap: wrap;
+    padding: 10px;
+}
+.header{
+    width: 20%;
+   margin-left: 20px;
+}
+.nav{
+    width: 75%;
+    margin-top: 30px;
+    text-align: right;
+}
+a{
+    text-decoration: none;
+    color: rgb(250, 247, 243);
+}
+.center{
+    text-align: center;
+    
+}
+ul li{
+    display: inline;
+    margin: 20px;
+ 
+}
+.footer{
+    text-align: center;
+    font-family: 'Scheherazade New', serif;
+}
+h1{
+    text-align: start;
+    font-size: 45pt;
+}
+h2{
+    margin-top: 20px;
+}
+p{
+    font-size: 35pt;
+    margin: 20px;
+    font-family: 'Italianno', cursive;
+
+
+}
+.link{
+    border: 1px solid white;
+    margin: 20px;
+    padding: 20px;
+}
