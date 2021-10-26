@@ -1,0 +1,58 @@
+
+
+
+
+
+
+
+/* Основные стили */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body{
+  background-color: bisque;
+}
+
+.fa{
+  color: rgb(3, 3, 3);
+}
+.icon{
+  margin: 20px;
+  background-color: aquamarine;
+  padding:20px;
+  border-radius: 10% 10%;
+}
+ul li{
+  list-style-type: none;
+  font-size: 25px;
+  padding: 10px;
+}
+
+.fa-li:hover{
+  color: aliceblue;
+}
+
+/*
+.fa{
+    color: aquamarine;
+}*/
+.fa:hover{
+    fa-inverse
+}
+.font__icons {
+    width: 50%;
+    margin: 20px 0 20px 0;
+    padding: 0 0 0 30px;
+    background-color: rgb(67, 81, 136);
+    border-radius: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    transition: width 2s;;
+  }
+  .font__icons:hover {
+    width: 100%;
+  }
