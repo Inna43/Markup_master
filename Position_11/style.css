@@ -1,3 +1,16 @@
+.block{
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    position: fixed;
+    background: rgb(63,94,251);
+background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    left: 10px;
+    top: 100px;
+}
+
+
+
 
 .flag{   
     margin-top: 50px; 
@@ -54,3 +67,55 @@
      position: absolute;
      right: 0;
  }
+ .bear{
+     width: 400px;
+     height: 400px;
+     background-color: aquamarine;
+     margin: 0 auto;
+     border-radius: 45%;
+     position: relative;
+    
+
+ }
+ .p{
+     width: 100px;
+     height: 100px;
+     border-radius: 45%;
+     background-color: aquamarine;
+     position: absolute;
+     left: 0;
+     z-index: -1;
+
+ }
+ .pp{
+    width: 100px;
+    height: 100px;
+    border-radius: 45%;
+    background-color: aquamarine;
+    position: absolute;
+    right: 0;
+    z-index: -1;
+
+}
+.r{
+    width: 80px;
+    height: 80px;
+    border-radius: 45%;
+    background-color: rgb(164, 164, 172);
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    z-index: -1;
+
+}
+.rr{
+    width: 80px;
+    height: 80px;
+    border-radius: 45%;
+    background-color: rgb(117, 117, 122);
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: -1;
+
+}
