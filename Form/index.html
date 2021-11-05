@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <form action="#" method="get">
+      <div>
+          <p>Ваше имя</p>
+        <input type="text" name="username" value="">
+      </div>
+      <div>
+        <p>Пароль</p>
+        <input type="password" name="userpas" value="">
+      </div>
+
+      <div>
+         <p>Укажите ваш пол</p>
+           <div><input type="radio" name="gender" value="мужской">М </div>
+           <div><input type="radio" name="gender" value="женский">Ж</div> 
+      </div>
+      <div>
+          <p>Любимые домашние животные </p> 
+          <div>
+              <input type="checkbox" name="cat" value="yes"> Кошка
+          </div>   
+          <div>
+            <input type="checkbox" name="dog" value="yes"> Собака
+        </div>  
+        <div>
+            <input type="checkbox" name="fish" value="yes"> Рыбки
+        </div>  
+      </div>
+      <div>
+          <p>Ваш любимый город</p>
+          <select name="sity" multiple >
+              <option value="Kharkov">Харьков</option>
+              <option value="Lviv">Львов</option>
+              <option value="Kiev">Киев</option>
+              <option value="Odessa">Одесса</option>
+          </select>
+      </div>
+      <div>
+          <p>Напишите нам:</p>
+          <textarea name="massage" ></textarea>
+      </div>
+      <br><br>
+      <div>
+          <button type="submit">Отправить</button>
+          <button type="reset">Очистить</button>
+      </div>
+      <br>
+      <div>
+              <label for="message">Напишите нам:</label>
+                <div>
+                  <textarea name="massage" ></textarea>
+                </div>
+           </div>
+
+           <fieldset>
+    		   <legend>Контактная информация</legend>
+    		       <p><label for="name">Ваше имя:
+                       <input type="text">
+                   </p>
+    		       <p><label for="email">Електронный адрес:
+                       <input type="email">
+                   </p>
+ 	      </fieldset>
+          <p><input type="submit" value="Отправить"></p>
+
+        
+   </form>
+</body>
+</html>
