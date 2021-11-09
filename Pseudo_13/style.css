@@ -1,0 +1,43 @@
+li{
+    font-size: 35px;
+  
+}
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    color: aqua;
+}
+a:active{
+    color: black;
+}
+textarea:focus{
+    background-color: aquamarine;
+}
+label{
+    font-size: 35px;
+}
+li:first-child{
+    color: blueviolet;
+}
+li:last-child{
+    color: brown;
+}
+.two li{
+    color: blueviolet;
+    list-style: none;
+    padding: 10px;
+}
+.two li:before{
+    content: "§";
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+
+}
+div{
+    width:100%;
+    margin: 40px;
+}
