@@ -40,5 +40,9 @@ h1, p {
     flex-wrap: wrap;
 }
 a{
-    
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+    font-size: larger;
 }
