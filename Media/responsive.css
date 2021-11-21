@@ -14,7 +14,9 @@ nav li {
   display: flex;
   justify-content: center;
 }
-
+img{
+  width: 30px;
+}
 .photo {
   max-width: 600px;
 }
@@ -23,7 +25,10 @@ nav li {
 .data {font-size: 24px;}
 .data ul { margin-top: 0;}
 
-@media   (max-width: 740px){
+
+  
+
+/*@media   (max-width: 830px){
   .container {
     width:100%;
     display: block;
@@ -32,4 +37,4 @@ nav li {
   max-width:100%;
 }
   
-}
+}*/

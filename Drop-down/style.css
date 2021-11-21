@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Scheherazade+New&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+body{
+    background-color: rgb(90, 84, 84);
+    word-wrap:break-word !important;
+}
+nav{
+    background-color: rgb(214, 85, 25);
+    margin-top: 20px;
+    position: relative;
+}
+nav ul {
+	list-style: none;
+	position: relative;
+	}
+nav ul li {
+    display:inline-block;
+    background-color: rgb(214, 85, 25);
+  
+    }
+nav a {
+    display:block;
+    padding:0 10px; 
+    color:#FFF;
+    font-size:28px;
+    line-height: 60px;
+    text-decoration:none;
+}
+nav a:hover { 
+    background-color:rgb(90, 84, 84); 
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+    top: 60px;
+
+}
+  /* Display Dropdowns on Hover */
+nav  ul li:hover > ul {
+    display:inherit;
+   
+}
+  /* Fisrt Tier Dropdown */
+nav ul ul li {
+    width:160px;
+    float:none;
+    display:list-item;
+    position: relative;
+}
+  /* Second, Third and more Tiers */
+nav ul ul ul li {
+    position: relative;
+    top:-60px; 
+    left:170px;
+}
+
+
+
+
+h1{
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Italianno', cursive;
+    font-family: 'Scheherazade New', serif;
+ }
+ p{
+     font-size: 30px;
+     text-align: center;  
+ }
