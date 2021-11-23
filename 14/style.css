@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(46, 33, 33);
+}
+nav{
+    background-color: aquamarine;
+    margin-top: 50px;
+    position: relative;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    line-height: 80px;
+    margin: 50px;
+}
+
+nav ul li{
+    display: inline-block;
+   
+}
+nav ul li ul{
+
+
+   display: none;
+}
+nav li:hover{
+    background-color: rgb(46, 33, 33);
+}
+ul li:hover>ul{
+    display: block;
+    width: 160px;
+    background-color: rgb(11, 150, 103);
+    position: absolute;
+    top: 80px;
+}
+ul li ul li:hover>ul{
+    display: block;
+    width: 160px;
+    background-color: rgb(207, 97, 202);
+    position: absolute;
+    top: 160px;
+    left: 160px;
+}
