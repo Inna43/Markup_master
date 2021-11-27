@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.bold-btn {
+
+    font-size: 1rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding: 5px 40px 5px 40px;
+    border-radius: 30px;
+    
+}
+.btn:hover{
+    color: aliceblue;
+
+}
+.icon{
+    margin-top: 15px;
+}
+.fa-question-circle:before {
+    /* content: "\f059"; */
+    color: darkgray;}
+.fa-heart-o{
+    color: red;
+}    
+.float-start{
+    float: left;
+}
+
+.float-end{
+    float: right;
+}
+
+a{
+    color: gray;  
+}
+.card-img-top{
+   min-height: 250px;
+   max-height: 250px;
+   object-fit: contain;
+   padding: 30px;
+  
+}
+.card-text{
+    max-height: 75px;
+    overflow: hidden;
+}
+.card{
+    border-radius: 30px;
+}
+.badge-secondary{
+ margin-right: 20px;
+}
