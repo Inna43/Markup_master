@@ -1,0 +1,26 @@
+.contact{
+    display: block;
+}
+.contact-item{
+    width: 150px;
+    font-family: Gilroy-Bold;
+    font-size: 47.3392px;
+    line-height: 59px;
+    color: #070707;
+}
+.contact-item>p{
+    font-family: Gilroy-Medium;
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+    padding-top: 70px;
+    text-align: left;
+}
+.photo{
+    width: 100%;
+   
+}
+.photo>img{
+    width:10%;
+    
+}
